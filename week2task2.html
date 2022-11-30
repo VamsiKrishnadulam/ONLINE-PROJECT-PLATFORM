@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>webpage</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+    <style>
+        .banner-image{
+            background-image: url("/tech.jpg");
+            background-size: cover;
+        }
+        .container{
+            margin-top: 100px;
+        }
+        .ch_btn{
+            background-color: red;
+            color: white;
+            border-radius: 20px;
+            border: 0px;
+        }
+        pre{
+            margin-bottom: 0px;
+        }
+        .btn-size{
+            padding-top: 8px;
+            padding-left: 20px;
+            padding-bottom: 10px;
+            padding-right: 20px;
+        }
+        .eachcard{
+            background-color: rgb(147, 9, 7);
+            border: 0px;
+        }
+        .readmore{
+            background-color: rgb(147,9,7);
+        }
+        .makehover{
+            font-size: large;
+            color: white !important;
+            font-weight: 400 !important;
+            transition: background-color 0.001ms ;
+
+        }
+        .makehover:hover{
+            border-radius: 10px;
+            background-color:rgb(147, 9, 7);
+        
+            
+        }
+        .eachcard{
+            border-radius: 30px;
+        }
+        .readmore{
+            border-radius: 30px;
+            border: 0px;
+        }
+        .pagehover{
+           
+            font-size: large;
+            color: white !important;
+            font-weight: 400 !important;
+            transition: background-color 0.001ms ;
+
+        }
+        .pagehover:hover{
+            color: rgb(244, 39, 39)!important;
+        }
+        .card{
+            color: white !important;
+            background-color: rgb(244, 39, 39)!important;;
+        }
+        .card1st{
+            margin-left: 130px;
+            border-radius: 45px;
+        }
+        .viewmore{
+            background-color: rgb(244, 39, 39)!important;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <!--Navbar-->
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark p-md-3">
+        <div class="container-fluid">
+            <a href="#" class="navbar-brand">EDU MEETING</a>
+            <button
+                type="button"
+                class="navbar-toggler"
+                data-bs-target="$navbarNav"
+                data-bs-toggle="collapse"
+                aria-controls="navbarNav"
+                aria-expanded="false"
+                aria-label="Toggle Navbar"
+            >
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse "  id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item lead">
+                        <a href="#" class="nav-link  makehover text-weight-bold "> HOME</a>
+                    </li>
+                  <li class="nav-item lead">
+                    <a href="#" class="nav-link makehover text-weight-bold ">MEETING</a>
+                  </li>
+                  <li class="nav-item dropdown lead">
+                    <a class="nav-link dropdown-toggle pagehover text-weight-bold" href="#" data-bs-toggle="dropdown" role="button" aria-expanded="false">
+                      PAGES
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">UPCOMING MEETINGS</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">MEETING DETAILS</a></li>
+                    </ul>
+                  </li>
+                  
+                  <li class="nav-item lead">
+                    <a href="#" class="nav-link makehover text-weight-bold">COURSES</a>
+                  </li>
+                  <li class="nav-item lead">
+                    <a href="#" class="nav-link makehover text-weight-bold">CONTACT US</a>
+                  </li>
+                  
+                </ul>
+
+            </div>
+        </div>
+    </nav>
+    <!--image-->
+    <div class="banner-image w-100 vh-100 d-flex justify-content-center text-sm-stat">
+        <div class="container text-white ">
+            <h4>HELLO STUDENTS</h4>
+            <h2>WELCOME TO <span class="text-warning">EDUCATION</span></h2>
+            <p class="lead">
+Lorem ipsum dolor sit amet consectetur  
+tempore veniam iure <br> asperiores velit ip 
+mollitia optio aspernatur tenetur! Moll
+            </p>
+            <button type="button" class="btn btn-size ch_btn">JOIN  US  NOW!</button>
+        
+   
+    
+    
+    <div class="container text-center my-3">
+        <div class="row mx-auto my-auto">
+    
+                <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+                    <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                    </div>
+                    <div class="carousel-inner" role="listbox">
+                        <div class="carousel-item active">
+                            <div class ="row">
+                                <div class="col-sm-3 card1st">
+                                    <div class="card">
+                                        <div class="card-body">
+                                            <h4 class="card-title">Card 1</h4>
+                                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque ullam at ea consequatur. Consequatur est repellendus, simi</p>
+                                            <a href="#" class="btn viewmore lead">View More</a>
+                                        </div>
+                                    </div>
+                                </div> 
+                                <div class="col-sm-3">
+                                    <div class="card">
+                                        <div class="card-body">
+                                            <h4 class="card-title">Card 2</h4>
+                                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium explicabo, possimus aut cum accusamus, enim doloremque</p>
+                                            <a href="#" class="btn viewmore lead">View More</a>
+                                        </div>
+                                    </div> 
+                                </div>
+                                <div class="col-sm-3">
+                                    <div class="card">
+                                        <div class="card-body">
+                                            <h4 class="card-title">Card 3</h4>
+                                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo repudiandae veniam non asperiores quo iusto hic, eum lib</p>
+                                            <a href="#" class="btn viewmore lead">View More</a>
+                                        </div>
+                                    </div> 
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class ="row">
+                                <div class="col-sm-3 card1st">
+                                    <div class="card">
+                                        <div class="card-body">
+                                            <h4 class="card-title">Card 4</h4>
+                                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit tempore ullam ratione illo perspiciatis autem animi maiores cumque laborum quam.</p>
+                                            <a href="#" class="btn viewmore lead">View More</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+        </div>
+    </div>
+</div>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</html>
