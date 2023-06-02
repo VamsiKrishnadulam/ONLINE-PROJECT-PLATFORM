@@ -1,0 +1,18 @@
+.searchinput{
+    border-radius: 10px !important;
+}
+input{
+    padding-left: 20px;
+    font-family: Helvetica Neue Light ;
+    outline: none;
+}
+body{
+    min-height: 100vh;
+}
+.tags{
+    background-color: rgb(232, 234, 237) !important;
+}
+.tags:hover{
+    color: blue !important;
+    border-color: blue;
+}

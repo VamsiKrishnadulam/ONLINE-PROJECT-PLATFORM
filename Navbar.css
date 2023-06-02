@@ -1,0 +1,46 @@
+.Login,.Signup,.Upload{
+    max-width: 100px !important;
+    max-height: 45px !important;
+    color: white !important;
+    margin-right: 10px;
+
+}
+.Login,.Signup,.Upload:hover{
+    color: white !important;
+    border-color: white !important;
+}
+.Login,.Signup,.Upload:active{
+    color:white !important;
+}
+.navbar{
+    background-color: #232f3e !important;
+}
+.navbar-brand{
+    color: white !important;
+}
+.fa{
+    size: 20px !important;
+    margin-top: 10px;
+    margin-left: 10px;
+    text-align: center;
+    align-items: center;
+    width: 10%;
+    height: 30%;
+    margin-left: 10px;
+}
+.fa{
+    font-size: 22px;
+}
+input{
+    padding-left: 20px;
+    font-family: Helvetica Neue Light ;
+    outline: none;
+   
+}
+.error_msg{
+    color: red;
+}
+
+
+
+

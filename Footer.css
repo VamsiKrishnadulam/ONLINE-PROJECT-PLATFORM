@@ -1,0 +1,10 @@
+.sticky-footer{
+    position:sticky;
+    top:100%;
+}
+.fa{
+    font-size: 30px;
+}
+ul {
+    list-style-type: none;
+}
